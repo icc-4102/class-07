@@ -1,4 +1,4 @@
-package com.example.clase06
+package com.example.clase07
 
 interface IAdapterView{
     fun addItem(item: Any)

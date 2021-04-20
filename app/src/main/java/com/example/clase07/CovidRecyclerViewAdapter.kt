@@ -1,4 +1,4 @@
-package com.example.clase06
+package com.example.clase07
 
 import android.view.LayoutInflater
 import android.view.View
@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.RecyclerView
 class CovidRecyclerViewAdapter(override val onClickListener: OnClickListener):
         RecyclerView.Adapter<CovidRecyclerViewAdapter.CovidViewHolder>(),IAdapterView {
 
-    var data = mutableListOf<CovidCase>()
+    var data = listOf<CovidCase>()
 
 
     //Metodo donde crear el layout de la celda a ver
@@ -34,9 +34,15 @@ class CovidRecyclerViewAdapter(override val onClickListener: OnClickListener):
     // Metodo donde agrega un item al recyclerView
     override fun addItem(item: Any) {
         if(item is CovidCase){
-            data.add(item)
+//            data.add(item)
             notifyDataSetChanged()
         }
+        this.notifyDataSetChanged()
+    }
+
+    //Este metodo utiliza la lista que le entrega el viewmodel
+    fun set(cases: List<CovidCase>){
+        this.data = cases
         this.notifyDataSetChanged()
     }
 
@@ -45,12 +51,12 @@ class CovidRecyclerViewAdapter(override val onClickListener: OnClickListener):
     inner class CovidViewHolder(private val view: View): RecyclerView.ViewHolder(view){
 
         fun bindView(item: CovidCase){
-            val dateTextView = view.findViewById<TextView>(R.id.date_text_view)
+            val countryTextView = view.findViewById<TextView>(R.id.country_text_view)
             val positiveTextView = view.findViewById<TextView>(R.id.positive_text_view)
             val negativeTextView = view.findViewById<TextView>(R.id.negative_text_view)
-            dateTextView.text = item.date.toString()
-            positiveTextView.text = item.positive.toString()
-            negativeTextView.text = item.negative.toString()
+            countryTextView.text = item.attributes.Country_Region
+            positiveTextView.text = item.attributes.Active.toString()
+            negativeTextView.text = item.attributes.Deaths.toString()
 
         }
     }

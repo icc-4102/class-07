@@ -8,7 +8,7 @@
 
 
     <TextView
-        android:id="@+id/date_text_view"
+        android:id="@+id/country_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
@@ -23,8 +23,8 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
         android:textColor="@color/red"
-        app:layout_constraintStart_toStartOf="@id/date_text_view"
-        app:layout_constraintTop_toBottomOf="@+id/date_text_view"
+        app:layout_constraintStart_toStartOf="@id/country_text_view"
+        app:layout_constraintTop_toBottomOf="@+id/country_text_view"
         tools:text="Positivos" />
 
     <TextView
@@ -34,7 +34,7 @@
         android:layout_marginTop="4dp"
         android:textColor="@color/green"
         app:layout_constraintTop_toBottomOf="@+id/positive_text_view"
-        app:layout_constraintStart_toStartOf="@id/date_text_view"
+        app:layout_constraintStart_toStartOf="@id/country_text_view"
         tools:layout_editor_absoluteX="98dp"
         tools:text="Negativos" />
 
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="@string/dateLabel"
+        android:text="@string/countryLabel"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 

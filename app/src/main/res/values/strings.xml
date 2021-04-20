@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Clase06</string>
+    <string name="app_name">Clase07</string>
     <string name="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae molestie nunc. Curabitur sed risus sit amet massa hendrerit tempus sit amet vel nunc. In et mauris et purus sodales dictum. Quisque eget sem et risus consectetur lobortis vitae pretium augue. Praesent a lacus finibus, sagittis mi sed, tincidunt lorem. Nunc eu erat sit amet neque dignissim finibus id sed massa. In hac habitasse platea dictumst.
 
 Sed gravida eleifend enim, vel sagittis ipsum rutrum a. Curabitur velit tellus, tincidunt ut interdum vel, tincidunt nec mi. Cras ut nisl sapien. Praesent sit amet augue ac lacus porta semper at nec metus. Vestibulum accumsan risus non nisi hendrerit luctus. Proin malesuada massa ut dui consectetur porta id sed dui. Duis accumsan fringilla justo quis sollicitudin. Donec semper turpis lectus, vitae ornare purus rutrum non. Aenean porttitor est eget mauris ullamcorper, eu feugiat orci aliquet. Nullam congue nisl vitae neque dictum porttitor. Donec finibus lobortis dolor. Donec vitae ante lorem.
@@ -19,7 +19,7 @@ Proin varius eros et lacinia tempor. Suspendisse potenti. Aliquam erat volutpat.
 Nullam in orci id odio accumsan lacinia eget eget dui. Nunc vel tincidunt orci, sed molestie nisi. Mauris elementum eros eu tellus lacinia tempor. Donec justo ante, sagittis et augue non, rutrum posuere nisi. Phasellus tristique a lacus vitae placerat. Vestibulum nec ante et est semper pulvinar sit amet non justo. Fusce lorem ipsum, pulvinar vel consectetur non, tincidunt faucibus augue. Phasellus dignissim lorem et condimentum venenatis. Mauris sit amet viverra ligula. Nam sed pretium justo, eget tempor urna. Aliquam ut hendrerit mi. Duis tincidunt ut nulla a condimentum. Quisque lobortis eget libero id consectetur.
 
 Donec libero metus, accumsan sit amet imperdiet sit amet, efficitur eget massa. Nunc quis erat lacus. In hac habitasse platea dictumst. Pellentesque sem lorem, sagittis et nibh id, tempor sodales diam. Curabitur ornare mattis varius. Pellentesque sed blandit justo. Phasellus dapibus urna magna, vel consequat felis finibus et. Suspendisse vel metus lacus. Maecenas faucibus commodo elit, id faucibus eros aliquet non. Aliquam id eleifend dolor, efficitur dapibus risus.</string>
-    <string name="dateLabel">Fecha:</string>
+    <string name="countryLabel">Pais:</string>
     <string name="positivesLabel">Positivos</string>
     <string name="negativesLabel">Negativos</string>
     <string name="moreInformationLabel"><![CDATA[Mas información ->]]></string>
