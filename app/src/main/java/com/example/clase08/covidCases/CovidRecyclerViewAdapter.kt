@@ -1,13 +1,17 @@
-package com.example.clase07
+package com.example.clase07.covidCases
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
+import com.example.clase07.CovidCase
+import com.example.clase07.IAdapterView
+import com.example.clase07.OnClickListener
+import com.example.clase07.R
 
 class CovidRecyclerViewAdapter(override val onClickListener: OnClickListener):
-        RecyclerView.Adapter<CovidRecyclerViewAdapter.CovidViewHolder>(),IAdapterView {
+        RecyclerView.Adapter<CovidRecyclerViewAdapter.CovidViewHolder>(), IAdapterView {
 
     var data = listOf<CovidCase>()
 
