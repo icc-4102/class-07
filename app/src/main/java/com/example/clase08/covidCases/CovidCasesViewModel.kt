@@ -1,12 +1,11 @@
-package com.example.clase07.covidCases
+package com.example.clase08.covidCases
 
 import android.app.Application
 import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.map
-import com.example.clase07.CovidCase
-import com.example.clase07.MainActivity
-import com.example.clase07.Navigator
+import com.example.clase08.CovidCase
+import com.example.clase08.MainActivity
+import com.example.clase08.Navigator
 import com.google.gson.Gson
 
 

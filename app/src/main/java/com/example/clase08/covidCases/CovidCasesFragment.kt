@@ -1,13 +1,12 @@
-package com.example.clase07.covidCases
+package com.example.clase08.covidCases
 
 import android.os.Bundle
 import android.view.*
-import android.widget.Button
 import androidx.fragment.app.*
 import androidx.lifecycle.Observer
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.clase07.*
+import com.example.clase08.*
 
 class CovidCasesFragment : Fragment(), OnClickListener {
 
